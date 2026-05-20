@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: rgb(197, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#pauseOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.2);
+    display: none; 
+}
+.game-btn {
+    background-color: white;
+    color: black;
+    font: 25px bold;
+    border: none;
+    position : absolute;
+    width: 130px;
+    height: 25px;
+    display: none;
+    text-align: center;
+}
+#hoverEffect {
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    background: rgba(0,255,255,0.3);
+    display: none;
+}
+.text{
+    position: absolute;
+    display: none;
+    color: rgb(0,225,225);
+    font: 25px bold;
+}
